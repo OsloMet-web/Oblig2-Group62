@@ -1,0 +1,27 @@
+header {
+    background-color: rgb(255, 230, 0);
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+    
+.list-headers {
+    font-size: large;
+    
+}
+
+body {
+
+}
+
+footer {
+    background-color: rgb(255, 230, 0);
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}

@@ -1,11 +1,21 @@
-html {
-    font-family: sans-serif;
-body{
-    background-color: #eeeeee;
+/* Common for all pages */
+html{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+nav{
+    background-color: rgb(255, 230, 0);
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    padding-block: 1rem;
+}
+
+/* Page 1 CSS*/
 .heading{
-    font-family: arial;
+    
     text-align: center;
 }
 
@@ -35,45 +45,26 @@ span{
     width:800px;
 }
 
-h2{
+.introduction-heading{
     text-align: center;
 }
 
-
-
-
-header {
-    background-color: rgb(255, 230, 0);
-    
-}
-nav {
-    background-color: rgb(255, 230, 0);
-    font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    padding-block: 1rem;
-}
-.image {
-    max-width: 100%;
-    height: auto;
-}
-.article {
-    background-color: rgb(220, 220, 220);
-}
-
-.list-headers {
+/* Page 2 CSS */
+.list-headers{
     font-size: large;
-    
 }
 
-footer {
+.list{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+footer{
     background-color: rgb(255, 230, 0);
     font-weight: bold;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    
 }

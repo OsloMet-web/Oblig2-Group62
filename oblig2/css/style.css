@@ -1,3 +1,45 @@
+body{
+    background-color: #eeeeee;
+}
+
+.heading{
+    font-family: arial;
+    text-align: center;
+}
+
+.author{
+    text-align: center;
+}
+
+
+span{
+    color: orange;
+}
+.pictures{
+    display: block;
+    margin-left: 300px;
+}
+
+.caption{
+    margin-left:300px;
+    width:800px;
+    color:green;
+}
+
+.content{
+    font-size: 20px;    
+    font-style: arial;
+    margin-left: 300px;
+    width:800px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+
 header {
     background-color: rgb(255, 230, 0);
     
@@ -7,7 +49,6 @@ nav {
     justify-content: space-around;
 
 }
-
     
 .list-headers {
     font-size: large;

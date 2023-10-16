@@ -23,7 +23,6 @@ nav{
     text-align: center;
 }
 
-
 span{
     color: orange;
 }
@@ -54,7 +53,7 @@ span{
     font-size: large;
 }
 
-.list{
+.lists{
     display: grid;
     justify-content: center;
     margin-bottom: 3em;
